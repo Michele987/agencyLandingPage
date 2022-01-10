@@ -1,0 +1,50 @@
+#section3{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "Milk Juice Cone Sugar"
+    ;
+
+    #milk{
+        grid-area: Milk;
+
+
+        img{
+            object-fit: cover;
+            width: 100%;
+            height: 100%;
+        }
+
+    }
+
+    #juice{
+        grid-area: Juice;
+
+        img{
+            object-fit: cover;
+            height: 100%;
+            width: 100%;
+        }
+    }
+
+    #cone{
+        grid-area: Cone;
+
+        img{
+            object-fit: cover;
+            height: 100%;
+            width: 100%;
+        }
+    }
+
+    #sugar{
+        grid-area: Sugar;
+
+        img{
+            object-fit: cover;
+            height: 100%;
+            width: 100%;
+        }
+    }
+}

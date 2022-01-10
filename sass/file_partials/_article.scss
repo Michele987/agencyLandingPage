@@ -1,0 +1,116 @@
+article{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "ClientTestimonials ClientTestimonials ClientTestimonials"
+    "Emily Thomas Jennie "
+    ;
+    width: 100%;
+    height: 60vh;
+
+    #clientTestimonials{
+        font-family: 'Fraunces', serif;
+        grid-area: ClientTestimonials;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #emily{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        grid-area: Emily;
+
+        .textClient1{
+            margin-top: 15px;
+            line-height: 28px;
+            font-family: 'Barlow', sans-serif;
+        }
+
+        .textClient2{
+            margin-top: 30px;
+        }
+
+        h3{
+            font-family: 'Fraunces', sans-serif;
+
+        }
+
+        p{
+            font-family: 'Barlow', sans-serif;
+        }
+
+
+        img{
+            border-radius: 50%;
+            height: 65%;
+            width: 100%;
+        }
+    }
+
+    #thomas{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        grid-area: Thomas;
+
+        .textClient1{ 
+            margin-top: 15px;
+            line-height: 28px;
+            font-family: 'Barlow', sans-serif;
+        }
+
+        h3{
+            font-family: 'Fraunces', sans-serif;
+
+        }
+
+        .textClient2{
+            margin-top: 30px;
+        }
+
+       p{ 
+           font-family: 'Barlow', sans-serif;
+       }
+
+
+        img{
+            border-radius: 50%;
+            height: 65%;
+            width: 100%;
+        }
+    }
+
+    #jennie{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        grid-area: Jennie;
+
+        .textClient1{ 
+            margin-top: 15px;
+            line-height: 28px;
+            font-family: 'Barlow', sans-serif;
+        }
+
+        .textClient2{
+            margin-top: 30px;
+        }
+
+        h3{
+            font-family: 'Fraunces', sans-serif;
+        }
+
+        p{
+            font-family: 'Barlow', sans-serif;
+        }
+
+        img{
+            border-radius: 50%;
+            height: 65%;
+            width: 100%;
+        }
+    }
+}
+

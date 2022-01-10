@@ -1,0 +1,48 @@
+footer{
+    background: hsl(168, 41%, 43%);
+    width: 100%;
+
+    #sunnyside{
+        // font-family: 'Barlow', sans-serif;
+        font-family: 'Fraunces', serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        h1{
+            padding: 10px;
+        }
+    }
+
+    #link{
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+
+        ul{
+            font-family: 'Barlow', sans-serif;
+            display: flex;
+            list-style: none;
+
+            li{
+                padding: 20px;
+            }
+        }
+    }
+
+    #social{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        ul{
+            margin-top: 40px;
+            display: flex;
+            list-style: none;
+
+            li{
+                padding: 15px;
+            }
+        }
+    }
+}
