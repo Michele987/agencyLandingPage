@@ -6,9 +6,10 @@ article{
     "Emily Thomas Jennie "
     ;
     width: 100%;
-    height: 60vh;
+    // height: 60vh;
 
     #clientTestimonials{
+        padding: 80px;
         font-family: 'Fraunces', serif;
         grid-area: ClientTestimonials;
         display: flex;
@@ -22,6 +23,7 @@ article{
         flex-direction: column;
         grid-area: Emily;
 
+
         .textClient1{
             margin-top: 15px;
             line-height: 28px;
@@ -30,6 +32,10 @@ article{
 
         .textClient2{
             margin-top: 30px;
+        }
+
+        .textClient3{
+            margin-bottom: 150px;
         }
 
         h3{

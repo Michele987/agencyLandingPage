@@ -1,0 +1,192 @@
+//mediaQuery phone
+@media screen and (max-width:767px){
+
+    header{
+
+        nav{
+
+            img{
+                margin-top: 20px;
+            }
+
+            #toggle{
+                margin-top: 20px;
+                margin-right: 10px;
+            }
+
+        }
+        
+        #boxList{
+            display: none;
+        }
+    }
+
+   #presentation{
+       
+       h1{
+           text-align: center;
+       }
+   }
+
+    #section1{
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "egg"
+        "textEgg"
+        "vine"
+        "textVine"
+        ;
+
+        #boxTextEgg{
+            h2{
+                text-align: center;
+                margin-top: 60px;
+            }
+
+            p{
+                text-align: center;
+            }
+
+            h4{
+                margin-top: 60px;
+                margin-bottom: 80px;
+                text-align: center;
+
+            }
+        }
+
+        #boxTextVine{
+
+            h2{
+                text-align: center;
+                margin-top: 60px;
+            }
+
+            p{
+                text-align: center;
+            }
+
+            h4{
+                margin-top: 60px;
+                margin-bottom: 80px;
+                text-align: center;
+                position: relative;
+
+                &::after{
+                    content: '';
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    display: block;
+                    width: 100%;
+                    height: 1vh;
+                    background-color: red;
+                }
+
+            }
+        }
+    }
+
+    #section2{
+
+        flex-wrap: wrap;
+
+        #cherryAndText{
+            width: 100%;
+
+            #boxImageCherry{
+
+                #textCherry{
+                    text-align: center;
+                    left: 20%;
+                }
+            }
+        }
+    
+        #juiceAndText{
+            width: 100%;
+
+            #boxImageJuice{
+                
+                #textJuice{
+                    left: 20%;
+                }
+            }
+
+            
+        }
+    
+    }
+
+    article{
+
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "ClientTestimonials"
+        "Emily"
+        "Thomas"
+        "Jennie"
+        ;
+
+        .textClient3{
+            margin-bottom: 70px;
+        }
+
+        #clientTestimonials{
+            padding: 60px;
+        }
+
+        #emily{
+            text-align: center;
+        }
+
+        #thomas{
+            text-align: center;
+        }
+
+        #jennie{
+            text-align: center;
+        }
+
+    }
+
+     #section3{
+         grid-template-columns: 1fr 1fr;
+         grid-template-areas: 
+         "Milk Juice"
+         "Cone Sugar"
+         ;
+     }
+}
+
+
+//mediaQuery tablet
+@media screen and (min-width:768px) and (max-width:1023px){
+
+    header{
+
+        nav{
+
+            #toggle{
+
+                display: none;
+            }
+
+        }
+
+    }
+
+}
+
+@media screen and (min-width:1024px){
+    header{
+
+        nav{
+
+            #toggle{
+                display: none;
+            }
+
+        }
+    }
+}

@@ -1,6 +1,5 @@
 #section2{
     width: 100%;
-    height: 80vh;
     display: flex;
 
     #cherryAndText{
@@ -8,8 +7,24 @@
         height: 100%;
 
         #boxImageCherry{
+            position: relative;
             width: 100%;
             height: 100%;
+
+            #textCherry{
+                position: absolute;
+                top: 70%;
+                left: 30%;
+
+                h2{
+                  
+                    font-family: 'Fraunces', serif;
+                }
+
+                p{
+                   font-family: 'Barlow', sans-serif;
+                }
+            }
 
             img{
                 width: 100%;
@@ -20,21 +35,6 @@
         
         }
 
-        #textCherry{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-
-            h2{
-                font-family: 'Fraunces', serif;
-            }
-
-            p{
-              font-family: 'Barlow', sans-serif;
-
-            }
-        }
 
     }
 
@@ -43,6 +43,7 @@
         height: 100%;
 
         #boxImageJuice{
+            position: relative;
             width: 100%;
             height: 100%;
 
@@ -52,24 +53,24 @@
                 height: 100%;
             }
 
-        }
-
-        #textJuice{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
+            #textJuice{
+                text-align: center;
+                position: absolute;
+                top: 70%;
+                left: 30%;
 
                 h2{
+                  
                     font-family: 'Fraunces', serif;
                 }
 
                 p{
-                    font-family: 'Barlow', sans-serif;
-
+                   font-family: 'Barlow', sans-serif;
                 }
-            
+            }
+
         }
+
 
     }
 
